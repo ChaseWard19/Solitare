@@ -19,11 +19,13 @@ while (currentIndex != 0) {
     deck[randomIndex], deck[currentIndex]];
 }
 
-const cardClass = document.querySelectorAll('.card')
-cardClass.forEach(card => {
-    for (iterate=0; iterate<8; iterate++) {
-        let row2Array = []
-        row2Array.push(card)
-        console.log(row2Array)
-    }
+for (iterate=0; iterate<29; iterate++) {
+    const cardClass = document.querySelectorAll('.card')
+    cardClass.forEach(card => {
+        for (iterate2=0; iterate2<8; iterate2++) {
+            let row2Array = []
+            row2Array.push(card)
+            console.log(row2Array)
+        }
 })
+}
