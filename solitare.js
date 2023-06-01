@@ -22,7 +22,8 @@ while (currentIndex != 0) {
 // pre-game set tableau 
 let cardClass = document.querySelectorAll('.card')
 cardClass.forEach(card => {
-    card.style.backgroundImage = 'url(/'+deck[0][1]+'/'+deck[0][0]+'.png)'
+    card.style.backgroundImage = 'url(/'+deck[0][1]+'/'+deck[0][0]+'.png'
+    console.log('url(/'+deck[0][1]+'/'+deck[0][0]+'.png')
     card.style.backgroundRepeat = 'no-repeat'
     card.style.borderRadius = '7%'
     card.style.position = 'relative'
