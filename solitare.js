@@ -18,3 +18,12 @@ while (currentIndex != 0) {
     [deck[currentIndex], deck[randomIndex]] = [
     deck[randomIndex], deck[currentIndex]];
 }
+
+const cardClass = document.querySelectorAll('.card')
+cardClass.forEach(card => {
+    for (iterate=0; iterate<8; iterate++) {
+        let row2Array = []
+        row2Array.push(card)
+        console.log(row2Array)
+    }
+})
